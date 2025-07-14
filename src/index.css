@@ -1,0 +1,53 @@
+body{
+    background-color: #212121 !important;
+    color: white !important;
+}
+ul li {
+  border: none !important;
+}
+
+ul li a {
+  text-decoration: none;
+  border: none !important;
+}
+header{
+    padding: 10px 0;
+    
+}
+
+ header {
+    box-shadow:  100px white !important;
+
+
+}
+.info{
+    display: flex;
+    align-items: center !important;
+    margin: auto 0;
+}
+li>a{
+    color: white;
+}
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 1rem; 
+  padding: 1rem;
+}
+
+aside,
+section {
+  padding: 1rem;
+  color: white; 
+  min-height: 200px;
+}
+.bg-warning {
+  color: black !important; 
+}
+.header_nav>li>a{
+    transition: all 300ms;
+}
+.header_nav>li>a:hover{
+ 
+   color: yellow;
+}
