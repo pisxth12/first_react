@@ -11,12 +11,16 @@ const Main = () => {
       <img  className='w-100 h-100 object-fit-cover' src="https://www.shutterstock.com/image-photo/thailand-bangkok-07-march-us-260nw-2600340371.jpg" alt="" />
     </section>
     <aside className='border border-1'>
-      <img  className='w-100 h-100 object-fit-cover' src="https://aerocorner.com/wp-content/uploads/2020/06/F-22-Raptor-takes-off-730x472.jpeg" alt="" />
+      <img  className='w-100 h-100 object-fit-cover' src="https://www.nicepng.com/png/detail/493-4932013_f-22-raptor-transparent.png" alt="" />
     </aside>
     <section className='border border-1'>
       <img  className='w-100 h-100 object-fit-cover' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLnuVMFhG-WZfT1ea1FbEz5RFEHs0aEG715R-x0DeVa5FwqanewTV297qNaqvdjpgKLZw&usqp=CAU" alt="" />
     </section>
+
+    
+    
   </div>
+  
 </main>
 
   )

@@ -1,20 +1,22 @@
 import React from 'react'
-import Header from './web/Header'
-import Nav from './web/Nav'
-import { HashRouter, Routes, Route } from 'react-router-dom'
-
-import Main from './web/Main'
-import Footer from './web/footer'
+import { useState } from 'react'
+import UserContaxt from './test/UserContaxt';
+import Compo1 from './test/Compo1';
+import Compo2 from './test/Compo2';
 
 const App = () => {
+  const [name, setName] = useState("Sorn Piseth");
+  const [gender, setGender] = useState("male");
+  const [age , setAge] = useState(21);
   return (
+    
     <div>
-      <Header/>
-      <Nav/>
-      <Main/>
-      <Footer/>
-    </div>
+      <UserContaxt.Provider value={{ name, gender ,age  }} >
+        <Compo1/>
+      
 
+      </UserContaxt.Provider>
+    </div>
   )
 }
 

@@ -51,3 +51,23 @@ section {
  
    color: yellow;
 }
+
+.plane{
+  height: 20vw;
+  background-color: rgba(59, 164, 229, 0.538);
+}
+.b2-img{
+  width: 40vw;
+  transition: all 1000ms;
+}
+.b2{
+  width: 100vw;
+}
+
+.sky{
+  height: 20vw;
+  width: 100vw;
+}
+.plane:hover .b2-img{
+  transform: translateX(150%);
+}
